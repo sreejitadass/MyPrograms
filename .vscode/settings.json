@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "*.tcc": "c",
+        "chrono": "c",
+        "cstdio": "c",
+        "string_view": "c",
+        "shared_mutex": "c",
+        "functional": "c",
+        "regex": "c",
+        "vector": "cpp",
+        "cmath": "cpp"
+    }
+}
