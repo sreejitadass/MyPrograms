@@ -40,7 +40,7 @@ int main()
         cout << "Enter the element " << (i + 1) << ": ";
         cin >> p[i];
     }
-
     cout << "Minimum number of multiplications is: " << MCM(p, 1, n, memo) << endl;
+
     return 0;
 }
