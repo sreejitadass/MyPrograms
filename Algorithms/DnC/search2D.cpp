@@ -30,8 +30,8 @@ bool searchMatrix(vector<vector<int>> matrix, int target)
                 i++;
             }
         }
+        return false;
     }
-    return false;
 }
 
 int main()
@@ -55,4 +55,9 @@ int main()
 
     cout << "Enter the target: ";
     cin >> target;
+
+    if (searchMatrix(matrix, target))
+        cout << "Element found" << endl;
+    else
+        cout << "Not found" << endl;
 }

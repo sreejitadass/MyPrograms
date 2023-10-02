@@ -28,7 +28,7 @@ int search0(int arr[], int l, int h)
 
 int main()
 {
-    int arr[] = {1, 1, 0, 0, 0, 0, 0, 0};
+    int arr[] = {1, 1, 0, 0};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     int pos = search0(arr, 0, n - 1);

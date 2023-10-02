@@ -74,14 +74,6 @@ int select(int arr[], int l, int r, int k)
 
 int main()
 {
-    // srand(time(0));
-    // int arr[10];
-    // for (int i = 0; i < 10; i++)
-    // {
-    //     int rnd = rand() % 100 + 1;
-    //     arr[i] = rnd;
-    // }
-
     int arr[] = {12, 3, 5, 7, 9, 26};
     int n = sizeof(arr) / sizeof(arr[0]);
     for (int i = 0; i < n; i++)
